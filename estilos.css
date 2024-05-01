@@ -1,0 +1,492 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow-y: auto;
+    overflow-x: auto;
+    font-family: "Sono","marlin","Bitter", serif;
+    src: url(./fonts/marlin.ttf);
+    font-weight: 400;
+    scroll-behavior: smooth;
+    background-position: 30%;
+    background-color: #4695c2;
+background-image: url(./imagenes/noise-light.png)
+}
+/* font */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face{
+    font-family: "marlinSoft";
+    src: url(./fonts/marlinSoft.ttf);
+}
+@font-face{
+    font-family: "marlin";
+    src: url(./fonts/marlin.ttf);
+}
+.font1{
+    font-family: "marlinSoft";
+}
+.font2{
+    font-family: "marlin";
+}
+
+#container {
+    width: 1200px;
+    margin: 0 auto;
+    height: auto;
+}
+a{
+	text-decoration: none;
+	color: black;
+    height: 100%;
+    width: 100%;
+
+}
+
+#header {
+    width: 100%;
+    height: 150px;
+    background-color: #bda78d;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+.menu{
+    display: inline-block;
+        word-spacing: 30px;
+        color: black;
+        text-align: center;
+        font-size: 20px;
+        padding: 20px;    
+}
+
+a:hover {
+    color: #f7be7e; 
+    transition: color 0.3s ease-in-out;
+}
+
+.center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+       
+}
+.destacado{
+    background-color: #FF9933;
+    border-radius: 12px;
+}
+.destacadaso{
+    color: #383838;
+    font-weight: bold;
+    padding: 5px;
+    font-family: "marlinSoft";
+
+}
+.nav-link{
+    color: #363636;
+    word-spacing: 30px;
+}
+.nav-link:hover {
+    color: #f7be7e;
+    transition: color 0.3s ease-in-out;
+  }
+
+.titulo{
+    color: #ffffff;
+    font-family: "marlin";
+    font-weight: bold;
+    margin-top: 5%;
+}
+.subtitulo{
+    color: #f5f5f5;
+    font-family: "marlinSoft";  
+    font-weight: 600;
+    margin-top: -4%;
+
+}
+#navegacion{
+    width: 100%;
+    height: 50px;
+    background-color: #c75b64;
+}
+
+#logo{
+    width: 300px;
+    height: 100px;
+    background-color: #b41fb4;
+    margin: auto;   
+}
+
+.tamaño {
+    height: auto;
+    width: 50%;
+    padding-top: 7%;
+    padding-bottom: 10%;  
+  }
+
+.alineado{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.redondeo{border-radius: 10px;
+overflow: hidden;}
+
+.itemhome1{
+    margin-top: 6%; 
+  
+}
+.itemhome2{
+    margin-top: 6%;}
+
+.itemhome3{  
+    margin-top: 6%;}
+
+#contenido {
+    width: 100%;
+    height: auto;  
+}
+
+.caja-cont{
+    width: 370px;
+    
+    float: left;
+    margin: 10px;
+    margin-top: 20px;
+}
+.caja-nuevocont{
+    margin-left: 12%;
+    width: 80%;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 700;
+    padding: 20px;
+    float: left;
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+.parrafo{
+    color: #ffffff;
+    font-family: "marlin";
+    
+}
+
+h3{
+    color: #363636;
+    font-family: "marlin", "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+}
+.btn{
+    display: inline-block;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+}
+.btn-custom{
+    background-color: #548745;
+    color: white;
+}
+.btn-custom2{
+    background-color: #ffffff;
+    color: #363636;
+}
+#btn:hover{
+    background-color: #f7be7e;
+    color: white;
+}
+.nombre{
+    color: #363636;
+    font-weight: bold;
+    padding: 10px;
+}
+.descpr{
+    color: #363636;
+    font-weight: normal;
+    padding: 5px;
+}
+.descpr2{
+    color: #363636;
+    font-weight: bold;
+    font-size: medium;
+    padding: 5px;
+}
+.descpr3{
+    color: #3f3f3f;
+    font-weight: normal;
+    font-size: medium;
+  
+}
+.nuestrocafe{
+    font-family: "marlin";
+    color: #ffffff;
+    margin-left: 40%;
+    margin-bottom: 5%;
+   
+}
+#contenido2{
+    display: flow-root;
+    width: 100%;
+    height: auto;
+    background-color: #548745;
+    background-image: url(./imagenes/noise-light.png);
+    margin-bottom: 5%;
+    border-radius: 10px;
+    margin-bottom: 20%;
+    margin-top: 20%;
+    font-family: "marlin";
+}
+.caja-cont2{
+    width: 380px;
+    height: auto;
+    background-color: #ffffff;
+    background-image: url(./imagenes/noise-light.png);
+    float: left;
+    margin: 100px;
+    margin-top: 10%;
+    border-radius: 10px;
+    padding: 1%;
+}
+.infopedido{
+    color: #363636;
+    font-weight: normal;
+    padding: 5px;
+    font-family: "marlinSoft";
+}
+.contenido3{
+    width: 100%;
+    height: 100%;
+    float: left;
+    margin-left: 3%;
+    margin-top: 15%;
+   
+}
+
+.caja-cont3{
+    width: 370px;
+    height: auto;
+    float: left;
+    margin: 10px;
+    margin-top: 10%;
+}
+#contenido5{
+    height: auto;
+    width: 100%;
+    display: flex;
+    margin-top: 20%;  
+}
+
+
+#mod1Col1
+    {
+        background: #548745;  
+        background-image: url(./imagenes/noise-light.png);
+        
+    }
+#mod1Col2{
+    background: #548745;  
+   background-image: url(./imagenes/noise-light.png); 
+}
+
+.espacio{
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+.contactanos{
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: 50%;
+}
+footer{
+    height: auto;
+    width:100%;
+    float: left;
+    display: inline;
+        word-spacing: 30px;
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        background-image: url(./imagenes/noise-light.png);
+        background-color: #ffffff;
+        margin-top: 15%;
+        border-radius: 20px;
+    }
+    #imagen-cafe{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    
+    }
+    #imagen-cafe-contenedor{
+        width: 100%;
+        height: 250px;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+    .navbar-collapse {
+        justify-content: end;   
+      }
+      .loguito{
+        width: 10%;
+        position: absolute;
+      }
+      .carousel-item img{
+        object-fit: cover;
+      }
+      
+
+   /* incio media 600px a 1200px */
+@media all and (min-width:600px) and (max-width:1200px){
+    
+#container, #header {
+    width: 600px;
+}
+
+.menu {
+    word-spacing: 10px;
+    font-size: 16px;
+}
+
+.caja-cont {
+    width: 600px;
+    margin: 10px;
+    margin-top: 20px;
+}
+.itemhome1, .itemhome2, .itemhome3 {
+    max-width: 45%;
+    object-fit: contain;
+     }
+
+.caja-nuevocont {
+    padding-top: 6%;
+    padding-bottom: 8%;
+}
+.caja-cont2{
+    margin-bottom: 8%;
+    margin-left:20% ;
+}
+.caja-cont3{
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-bottom: 8%;
+}
+
+footer {
+    height: 100%;
+    width: 100%;
+    word-spacing: 10px;
+    padding-top: 3%;
+}
+}
+/* fin media 600px a 1200px */
+
+/* inicio menos de 599px */
+@media all and (max-width: 599px) {
+    #container {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .menu {
+        display: block;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .menu a {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .center {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .tamaño {
+        width: 60%;
+        height: auto;
+        margin-top: 30%;
+        margin-bottom: 10%;
+    }
+
+    .caja-cont {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    #contenido {
+        height: auto;
+    }
+
+    .caja-nuevocont {
+        margin-left: 0;
+        width: 100%;
+        font-size: 24px;
+        padding: 20px 0;
+    }
+    .itemhome1, .itemhome2, .itemhome3 {
+        max-width: 45%;
+        object-fit: contain;
+         }
+
+    #contenido2 {
+        display: flow-root;
+        height: auto;
+        width: 100%;
+        margin-bottom: 60%;
+    }
+
+    .caja-cont2 {
+        margin: 20px 0;
+        margin-left: 18%;
+        width:  70%;
+        height: 100%;
+    }
+
+    #contenido3 {
+        height: auto;  
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+    .caja-cont3 {
+        margin: 20px 0;
+        margin-left: 18%;
+        width: 70%;
+        height: 100%;
+
+    }
+
+    footer {
+        height: 40%;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0;
+        margin-top: 20px;
+    }
+
+    footer ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    footer a {
+        display: inline-block;
+        margin: 0 10px;
+    }
+    
+       
+    
+}
+/* fin menos de 599px */
